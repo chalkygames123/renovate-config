@@ -1,4 +1,5 @@
 {
+  "name": "@chalkygames123/renovate-config",
   "private": true,
   "scripts": {
     "fix": "run-s \"lint -- --fix\"",
