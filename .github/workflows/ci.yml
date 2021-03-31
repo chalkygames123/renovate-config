@@ -14,3 +14,5 @@ jobs:
       - uses: actions/setup-node@v2
 
       - run: npm install-ci-test
+
+      - run: npx --package=renovate --call='renovate-config-validator' --yes
