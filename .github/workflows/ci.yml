@@ -13,4 +13,4 @@ jobs:
 
       - uses: actions/setup-node@v2
 
-      - run: npx --package=renovate --call='renovate-config-validator' --yes
+      - run: npx --package=renovate --call='RENOVATE_CONFIG_FILE=default.json renovate-config-validator' --yes
