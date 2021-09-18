@@ -1,14 +1,14 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base",
-    "github>chalkygames123/renovate-config:group:allNonMajorExceptNode",
-    "group:nodeJs"
-  ],
-  "packageRules": [
-    {
-      "matchPackageNames": ["node"],
-      "ignoreUnstable": false
-    }
-  ]
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": [
+		"config:base",
+		"github>chalkygames123/renovate-config:group:allNonMajorExceptNode",
+		"group:nodeJs"
+	],
+	"packageRules": [
+		{
+			"matchPackageNames": ["node"],
+			"ignoreUnstable": false
+		}
+	]
 }
