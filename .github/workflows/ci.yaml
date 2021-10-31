@@ -15,4 +15,4 @@ jobs:
 
       - run: npx --package=renovate --call='RENOVATE_CONFIG_FILE=default.json renovate-config-validator' --yes
 
-      - run: npx --package=renovate --call='RENOVATE_CONFIG_FILE=group:allNonMajorExceptNodeJs.json renovate-config-validator' --yes
+      - run: npx --package=renovate --call='RENOVATE_CONFIG_FILE=group:allNonMajorDevDependenciesExceptNodeJs.json renovate-config-validator' --yes

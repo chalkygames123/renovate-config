@@ -1,0 +1,13 @@
+{
+	"description": "Group all minor and patch devDependencies updates except Node.js together",
+	"packageRules": [
+		{
+			"matchPackagePatterns": ["*"],
+			"matchUpdateTypes": ["minor", "patch"],
+			"matchDepTypes": ["devDependencies"],
+			"excludePackageNames": ["node"],
+			"groupName": "all non-major devDependencies except Node.js",
+			"groupSlug": "all-minor-patch-dev-dependencies-except-node"
+		}
+	]
+}
