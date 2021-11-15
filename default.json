@@ -2,7 +2,7 @@
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"extends": [
 		"config:base",
-		"github>chalkygames123/renovate-config:group:allNonMajorDevDependenciesExceptNodeJs",
+		"github>chalkygames123/renovate-config:groupAllNonMajorDevDependenciesExceptNodeJs",
 		"group:nodeJs"
 	],
 	"packageRules": [
