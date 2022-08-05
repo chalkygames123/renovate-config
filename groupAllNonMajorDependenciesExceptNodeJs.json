@@ -1,4 +1,5 @@
 {
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"description": "Group all minor and patch dependencies updates except Node.js together",
 	"packageRules": [
 		{
